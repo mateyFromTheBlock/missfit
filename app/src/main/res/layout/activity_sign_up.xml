@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/logo12"
+    tools:context="com.example.arono.missfit.MyLoginActivity">
+
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/email_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email (mandatory)"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:background="@drawable/barlogin24"
+                android:layout_marginBottom="5dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name (optional)"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/barlogin24"
+                android:singleLine="true" />
+
+
+            <EditText
+                android:id="@+id/password_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password (mandatory)"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/barlogin24"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+
+            <EditText
+                android:id="@+id/reenter_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-Enter Password (mandatory)"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/barlogin24"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone (optional)"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/barlogin24"
+                android:singleLine="true" />
+
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City (optional)"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/barlogin24"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/sign_in_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="SIGN IN"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arono.missfit" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity
+            android:name=".Activities.FeedActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Activities.AddItemActivity"
+            android:label="@string/title_activity_add_item" >
+        </activity>
+        <activity
+            android:name=".Activities.MyItemsActivity"
+            android:label="@string/title_activity_item" >
+        </activity>
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".Drawer.BaseActivityWithNavigationDrawer"
+            android:label="@string/title_activity_base_activity_with_navigation_drawer" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Registration.LoginInActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registration.SignUpActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Activities.ShowItemActivity"
+            android:label="@string/title_activity_item" >
+        </activity>
+    </application>
+
+</manifest>

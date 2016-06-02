@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.arono.missfit.Activities.AddItemActivity">
+    <item android:id="@+id/deleteId" android:title="delete"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/delete32"/>
+    <item android:id="@+id/rotateId" android:title="rotate"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/rotate"/>
+</menu>

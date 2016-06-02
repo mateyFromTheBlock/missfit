@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MissFit</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="spinner_ColorArray">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>White</item>
+        <item>Gray</item>
+        <item>Red</item>
+    </string-array>
+    <string-array name="spinner_SizeArray">
+        <item>XXL</item>
+        <item>XL</item>
+        <item>L</item>
+        <item>M</item>
+        <item>S</item>
+        <item>XS</item>
+        <item>XXS</item>
+    </string-array>
+    <string-array name="spinner_TypeArray">
+        <item>Tops</item>
+        <item>Bottoms</item>
+        <item>Shoes</item>
+    </string-array>
+    <string name="open_navigation">Navigation open</string>
+    <string name="close_navigation">Navigation close</string>
+    <string name="title_activity_add_item">AddItem</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="title_activity_image_priview">ImagePriview</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_check">Check</string>
+    <string name="title_activity_base_activity_with_navigation_drawer">
+        BaseActivityWithNavigationDrawer
+    </string>
+    <string name="title_activity_shopping_cart">ShoppingCart</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_login_in">LoginInActivity</string>
+</resources>
